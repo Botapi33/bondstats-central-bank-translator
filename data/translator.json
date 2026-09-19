@@ -1,0 +1,1349 @@
+{
+  "product": "BondStats Central Bank Translator",
+  "version": "1.0.0",
+  "principle": "Functional translation, not false equivalence.",
+  "copyright": "Original BondStats explanatory text and taxonomy. Official institution names and factual instrument names are referenced for identification; no third-party prose, charts, logos or database content is reproduced.",
+  "relationshipLegend": {
+    "exact": "Same named instrument in its home institution.",
+    "exact-concept": "Same institutional concept, not necessarily the same instrument.",
+    "exact-example": "A direct example of the concept.",
+    "similar-function": "Performs a materially similar operational function, but design may differ.",
+    "related": "Related mechanism or policy tool; not an equivalent.",
+    "no-direct-equivalent": "No sufficiently close direct operational equivalent."
+  },
+  "entries": [
+    {
+      "slug": "standing-facility",
+      "name": "Standing Facility",
+      "category": "Facilities",
+      "definition": "A permanent central-bank facility that eligible counterparties can access on their own initiative, usually to borrow or place funds overnight.",
+      "marketWatch": [
+        "overnight rates",
+        "reserves",
+        "repo"
+      ],
+      "whatPeopleGetWrong": "Do not treat every standing facility as an emergency facility or assume facilities across central banks are economically identical.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Deposit Facility",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Marginal Lending Facility",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Standing Repo Facility",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Discount Window",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "ON RRP",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Operational Standing Facilities",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Complementary Lending Facility",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Complementary Deposit Facility",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "deposit-facility",
+      "name": "Deposit Facility",
+      "category": "Facilities",
+      "definition": "An overnight facility through which eligible institutions place funds with a central bank at a specified rate.",
+      "marketWatch": [
+        "overnight rates",
+        "reserve remuneration",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "A deposit facility is not automatically the same as paying interest on all reserve balances.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Deposit Facility",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Interest on Reserve Balances (IORB)",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "ON RRP",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Complementary Deposit Facility",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Operational Standing Deposit Facility",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "marginal-lending-facility",
+      "name": "Marginal Lending Facility",
+      "category": "Facilities",
+      "definition": "An overnight collateralised borrowing facility that gives eligible banks access to central-bank liquidity at a posted rate.",
+      "marketWatch": [
+        "overnight rates",
+        "liquidity",
+        "collateral"
+      ],
+      "whatPeopleGetWrong": "Functional similarity does not imply identical counterparties, collateral, pricing or stigma.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Marginal Lending Facility",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Standing Repo Facility",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Discount Window",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Complementary Lending Facility",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Operational Standing Lending Facility",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "iorb",
+      "name": "Interest on Reserve Balances (IORB)",
+      "category": "Reserve Remuneration",
+      "definition": "Interest paid by the Federal Reserve on balances maintained by eligible institutions at Federal Reserve Banks.",
+      "marketWatch": [
+        "federal funds",
+        "reserves",
+        "money-market floor"
+      ],
+      "whatPeopleGetWrong": "IORB is not a universal deposit facility for every money-market participant.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Interest on Reserve Balances (IORB)",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Deposit Facility",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Complementary Deposit Facility",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Bank Rate paid on eligible reserves",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "on-rrp",
+      "name": "Overnight Reverse Repo Facility (ON RRP)",
+      "category": "Facilities",
+      "definition": "A Federal Reserve operation that accepts overnight cash from eligible counterparties against securities and helps place a floor under money-market rates.",
+      "marketWatch": [
+        "money-market floor",
+        "liquidity absorption",
+        "repo"
+      ],
+      "whatPeopleGetWrong": "ON RRP and IORB work together but serve different eligible counterparty sets.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "ON RRP",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Liquidity-absorbing operations",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Deposit Facility",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Sale of bills / liquidity-absorbing operations",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "standing-repo",
+      "name": "Standing Repo Facility",
+      "category": "Facilities",
+      "definition": "A standing Federal Reserve repo facility that supplies overnight liquidity against eligible securities and helps limit upward pressure on overnight funding rates.",
+      "marketWatch": [
+        "repo",
+        "funding ceiling",
+        "collateral"
+      ],
+      "whatPeopleGetWrong": "A repo facility is not identical to an unsecured central-bank loan.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Standing Repo Facility",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Marginal Lending Facility",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Funds-Supplying Operations against Pooled Collateral",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Operational Standing Lending Facility",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "mro",
+      "name": "Main Refinancing Operation (MRO)",
+      "category": "Operations",
+      "definition": "A regular Eurosystem liquidity-providing operation used in monetary-policy implementation.",
+      "marketWatch": [
+        "bank liquidity",
+        "collateral",
+        "short-term rates"
+      ],
+      "whatPeopleGetWrong": "MRO is a specific Eurosystem instrument, not a generic name for every central-bank repo.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Main Refinancing Operation",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Open market operations",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Funds-Supplying Operations against Pooled Collateral",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Short-Term Repo",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "ltro",
+      "name": "Longer-Term Refinancing Operation (LTRO)",
+      "category": "Operations",
+      "definition": "A Eurosystem refinancing operation that supplies central-bank liquidity for maturities longer than the regular main refinancing operation.",
+      "marketWatch": [
+        "term funding",
+        "bank liquidity",
+        "collateral"
+      ],
+      "whatPeopleGetWrong": "LTRO and TLTRO should not be used interchangeably; targeted operations can carry additional conditions.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "LTRO",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "TLTRO",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Term repo / historical term facilities",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Longer-duration funds-supplying operations",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "tltro",
+      "name": "Targeted Longer-Term Refinancing Operation (TLTRO)",
+      "category": "Operations",
+      "definition": "A Eurosystem longer-term funding operation whose terms are linked to specified lending conditions or objectives.",
+      "marketWatch": [
+        "bank lending",
+        "term funding",
+        "transmission"
+      ],
+      "whatPeopleGetWrong": "Similar policy intent does not make targeted funding schemes operationally equivalent.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "TLTRO",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Loan Support Program",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Term Funding Scheme",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "No direct current equivalent",
+          "relationship": "no-direct-equivalent"
+        }
+      ]
+    },
+    {
+      "slug": "minimum-reserves",
+      "name": "Minimum Reserve Requirements",
+      "category": "Reserves",
+      "definition": "Rules requiring specified institutions to hold a minimum amount of reserves with the central bank over a defined maintenance framework.",
+      "marketWatch": [
+        "reserve demand",
+        "money markets",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "A zero reserve-requirement ratio does not mean banks hold zero reserves.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Minimum reserves",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Reserve requirements (currently zero ratio)",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Reserve deposit requirement system",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "No direct equivalent in current framework",
+          "relationship": "no-direct-equivalent"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-averaging",
+      "name": "Reserve Averaging",
+      "category": "Reserves",
+      "definition": "A framework that allows institutions to satisfy reserve requirements on average over a maintenance period rather than at every instant.",
+      "marketWatch": [
+        "overnight volatility",
+        "reserve demand",
+        "maintenance period"
+      ],
+      "whatPeopleGetWrong": "Averaging changes the timing flexibility of reserve holdings; it does not eliminate reserve requirements.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Reserve averaging",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Reserve maintenance framework",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "No direct current equivalent",
+          "relationship": "no-direct-equivalent"
+        }
+      ]
+    },
+    {
+      "slug": "excess-reserves",
+      "name": "Excess Reserves",
+      "category": "Reserves",
+      "definition": "Reserve balances held above a binding required amount, where such a requirement exists.",
+      "marketWatch": [
+        "reserves",
+        "liquidity",
+        "bank balance sheets"
+      ],
+      "whatPeopleGetWrong": "The term can become misleading when reserve requirements are zero or the operating framework changes.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Excess reserves / reserve holdings above minimum",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Excess reserve balances",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Reserve balances; 'excess reserves' is less useful under zero requirements",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "ample-reserves",
+      "name": "Ample-Reserves Regime",
+      "category": "Operating Frameworks",
+      "definition": "An operating regime in which aggregate reserve supply is high enough that small changes in reserves do not materially push the overnight policy rate away from its target.",
+      "marketWatch": [
+        "overnight rates",
+        "reserve demand",
+        "balance sheet"
+      ],
+      "whatPeopleGetWrong": "Ample does not mean infinite: reserve demand can shift and scarcity can emerge at the margin.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Ample-reserves regime",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Floor-like environment / abundant liquidity",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Demand-driven reserves framework",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "scarce-reserves",
+      "name": "Scarce-Reserves Regime",
+      "category": "Operating Frameworks",
+      "definition": "A regime in which reserve supply is tight enough that marginal changes in reserves have a stronger effect on overnight funding rates.",
+      "marketWatch": [
+        "overnight rates",
+        "repo",
+        "reserve demand"
+      ],
+      "whatPeopleGetWrong": "Scarcity is an operational condition, not simply a low absolute reserve number.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Scarce-reserves regime",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Corridor-style scarcity framework",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Historical reserves-scarcity configurations",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "floor-system",
+      "name": "Floor System",
+      "category": "Operating Frameworks",
+      "definition": "A framework in which the rate paid on central-bank balances or a related facility helps anchor overnight market rates near a lower policy boundary.",
+      "marketWatch": [
+        "overnight rates",
+        "reserve remuneration",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Real-world systems can be hybrid; labels should not replace institution-specific rules.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Floor-like ample-reserves framework",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Deposit-facility-rate floor / floor-like implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Floor-like reserve remuneration",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "corridor-system",
+      "name": "Corridor System",
+      "category": "Operating Frameworks",
+      "definition": "A framework in which a lending rate and deposit rate form upper and lower boundaries around a targeted overnight market rate.",
+      "marketWatch": [
+        "overnight rates",
+        "standing facilities",
+        "policy corridor"
+      ],
+      "whatPeopleGetWrong": "A corridor can coexist with abundant liquidity; observed trading may sit near one edge rather than the midpoint.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Standing-facility corridor",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoC",
+          "term": "Operating band",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "RBA",
+          "term": "Interest-rate corridor around cash rate",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "policy-corridor",
+      "name": "Policy Rate Corridor",
+      "category": "Operating Frameworks",
+      "definition": "The range between central-bank lending and deposit-type rates that helps bound overnight money-market rates.",
+      "marketWatch": [
+        "overnight rates",
+        "facility rates",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "The headline policy rate need not sit mechanically at the centre of every corridor.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Marginal lending rate ↔ deposit facility rate",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "BoC",
+          "term": "Operating band",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "RBA",
+          "term": "Standing-facility corridor",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "autonomous-factors",
+      "name": "Autonomous Factors",
+      "category": "Liquidity",
+      "definition": "Central-bank balance-sheet items outside routine monetary-policy operations that mechanically add to or drain banking-system liquidity.",
+      "marketWatch": [
+        "reserves",
+        "government deposits",
+        "currency"
+      ],
+      "whatPeopleGetWrong": "These factors can move reserves without a new monetary-policy decision.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Autonomous factors",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Non-reserve liabilities / Treasury General Account / currency",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Banknotes, government deposits and other balance-sheet factors",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "government-deposit-drain",
+      "name": "Government Deposit Drain",
+      "category": "Liquidity",
+      "definition": "A fall in banking-system reserves that occurs when private-sector payments move into a government account held at the central bank, all else equal.",
+      "marketWatch": [
+        "reserves",
+        "treasury cash",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "This is a balance-sheet transmission mechanism, not proof of deliberate monetary tightening.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Treasury General Account inflow",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Government deposits as autonomous factor",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Government deposits at the Bank",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "liquidity-injection",
+      "name": "Liquidity Injection",
+      "category": "Liquidity",
+      "definition": "An operation or balance-sheet movement that increases central-bank money available to eligible financial institutions.",
+      "marketWatch": [
+        "reserves",
+        "repo",
+        "funding"
+      ],
+      "whatPeopleGetWrong": "A liquidity injection is not automatically fiscal stimulus or permanent money creation.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Liquidity-providing operations",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Repo/open-market liquidity provision",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Funds-supplying operations",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "PBoC",
+          "term": "Open-market liquidity injection",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "liquidity-absorption",
+      "name": "Liquidity Absorption",
+      "category": "Liquidity",
+      "definition": "An operation or balance-sheet movement that removes or immobilises central-bank liquidity from the banking system.",
+      "marketWatch": [
+        "reserves",
+        "overnight rates",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Absorption can be temporary and does not necessarily signal a change in the policy stance.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Liquidity-absorbing operations",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "ON RRP / reserve-draining operations",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Sale of bills / absorbing operations",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "sterilisation",
+      "name": "Sterilisation",
+      "category": "Liquidity",
+      "definition": "An offsetting operation designed to neutralise the liquidity effect of another central-bank transaction or balance-sheet flow.",
+      "marketWatch": [
+        "reserves",
+        "FX intervention",
+        "open market operations"
+      ],
+      "whatPeopleGetWrong": "Sterilisation addresses the liquidity consequence of an action, not necessarily its other market effects.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Sterilising operations",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "PBoC",
+          "term": "Offsetting open-market operations",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Reserve-draining offset",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "fine-tuning-operation",
+      "name": "Fine-Tuning Operation",
+      "category": "Operations",
+      "definition": "An operation used to manage unexpected liquidity fluctuations or short-term interest-rate pressures between regular operations.",
+      "marketWatch": [
+        "overnight rates",
+        "liquidity forecast",
+        "market functioning"
+      ],
+      "whatPeopleGetWrong": "The term is institution-specific; not every ad hoc operation is formally a fine-tuning operation.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Fine-tuning operation",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Discretionary open-market operation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Ad hoc money-market operation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "fixed-rate-full-allotment",
+      "name": "Fixed-Rate Full Allotment",
+      "category": "Operations",
+      "definition": "A tender format in which eligible counterparties can obtain the amount they request at a fixed rate, subject to collateral and operational rules.",
+      "marketWatch": [
+        "bank funding",
+        "collateral",
+        "allotment"
+      ],
+      "whatPeopleGetWrong": "Full allotment does not mean unsecured or unlimited access.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Fixed-rate full allotment",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Fixed-rate funds-supplying operations",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "No direct routine equivalent",
+          "relationship": "no-direct-equivalent"
+        }
+      ]
+    },
+    {
+      "slug": "eligible-collateral",
+      "name": "Eligible Collateral",
+      "category": "Collateral",
+      "definition": "Assets that satisfy a central bank's rules for use in collateralised credit or liquidity operations.",
+      "marketWatch": [
+        "haircuts",
+        "repo",
+        "counterparties"
+      ],
+      "whatPeopleGetWrong": "Eligibility is facility-specific and can change; an asset being eligible does not imply zero credit risk.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Eurosystem eligible assets",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Eligible collateral varies by facility",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Eligible collateral",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Eligible collateral sets",
+          "relationship": "exact-concept"
+        }
+      ]
+    },
+    {
+      "slug": "collateral-haircut",
+      "name": "Collateral Haircut",
+      "category": "Collateral",
+      "definition": "A valuation deduction applied to collateral so that the credit extended is lower than the collateral's market or assessed value.",
+      "marketWatch": [
+        "collateral",
+        "credit risk",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Haircuts are risk controls, not market-price forecasts.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Valuation haircut",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Margin/haircut schedules",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Haircuts",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Margin ratios / collateral valuation rules",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "counterparty-eligibility",
+      "name": "Counterparty Eligibility",
+      "category": "Collateral",
+      "definition": "The institutional and operational requirements determining which entities may access a particular central-bank operation or facility.",
+      "marketWatch": [
+        "facilities",
+        "market access",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Eligibility can differ sharply across facilities at the same central bank.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Eligible monetary-policy counterparties",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Facility-specific eligible counterparties",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Eligible counterparties",
+          "relationship": "exact-concept"
+        }
+      ]
+    },
+    {
+      "slug": "repo",
+      "name": "Repurchase Agreement (Repo)",
+      "category": "Operations",
+      "definition": "A collateralised financing transaction structured as a sale of securities with an agreement to reverse the transaction later.",
+      "marketWatch": [
+        "secured funding",
+        "collateral",
+        "reserves"
+      ],
+      "whatPeopleGetWrong": "Market naming conventions differ: central-bank 'repo' direction can be described from the central bank or counterparty perspective.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Repo operation",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Reverse transaction",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Repurchase-agreement operations",
+          "relationship": "exact-concept"
+        }
+      ]
+    },
+    {
+      "slug": "reverse-repo",
+      "name": "Reverse Repo",
+      "category": "Operations",
+      "definition": "The opposite side of a repo transaction; in central-bank implementation it is commonly used to absorb cash from counterparties.",
+      "marketWatch": [
+        "liquidity absorption",
+        "money markets",
+        "collateral"
+      ],
+      "whatPeopleGetWrong": "Always check whose perspective defines 'repo' versus 'reverse repo'.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "ON RRP",
+          "relationship": "exact-example"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Liquidity-absorbing reverse transaction",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "outright-purchase",
+      "name": "Outright Asset Purchase",
+      "category": "Balance Sheet",
+      "definition": "A purchase in which the central bank acquires a security without a contractual near-term reversal.",
+      "marketWatch": [
+        "central-bank assets",
+        "reserves",
+        "duration"
+      ],
+      "whatPeopleGetWrong": "An outright purchase differs fundamentally from a repo because it has no pre-agreed reversal transaction.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "SOMA outright purchases",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Outright purchase programmes",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Outright purchases of JGBs",
+          "relationship": "exact-example"
+        }
+      ]
+    },
+    {
+      "slug": "balance-sheet-runoff",
+      "name": "Balance-Sheet Runoff",
+      "category": "Balance Sheet",
+      "definition": "A decline in central-bank securities holdings as assets mature, are redeemed, or are otherwise allowed to leave the portfolio without full reinvestment.",
+      "marketWatch": [
+        "reserves",
+        "duration supply",
+        "term premium"
+      ],
+      "whatPeopleGetWrong": "Runoff is not the same as actively selling securities.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Balance-sheet runoff",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "APP/PEPP portfolio decline through non-reinvestment",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Purchase reduction / portfolio evolution",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reinvestment",
+      "name": "Reinvestment",
+      "category": "Balance Sheet",
+      "definition": "Using principal payments from maturing central-bank holdings to purchase replacement assets and maintain some or all of a portfolio.",
+      "marketWatch": [
+        "balance sheet",
+        "duration",
+        "market supply"
+      ],
+      "whatPeopleGetWrong": "Reinvestment policy can matter even when the headline policy rate is unchanged.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "APP/PEPP reinvestment",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "SOMA reinvestment policy",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Purchase policy / replacement purchases",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-creation",
+      "name": "Reserve Creation",
+      "category": "Balance Sheet",
+      "definition": "An increase in commercial-bank reserve balances generated by central-bank transactions, such as asset purchases or lending, subject to offsetting balance-sheet flows.",
+      "marketWatch": [
+        "reserves",
+        "asset purchases",
+        "lending"
+      ],
+      "whatPeopleGetWrong": "Central-bank reserve creation is not the same as creating household bank deposits in every transaction.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Reserve balances",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Central-bank reserves/current accounts",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Current account balances at the Bank",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-scarcity-signal",
+      "name": "Reserve Scarcity Signal",
+      "category": "Market Signals",
+      "definition": "A market indicator suggesting that reserves are becoming more valuable at the margin, often visible through overnight funding spreads, facility use or rate sensitivity.",
+      "marketWatch": [
+        "repo",
+        "overnight spreads",
+        "facility usage"
+      ],
+      "whatPeopleGetWrong": "No single indicator proves scarcity; the signal should be interpreted as a bundle.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Repo/federal-funds pressure and SRF usage",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Money-market rate pressure / facility use",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Reserve demand and short-term rate pressure",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "facility-usage",
+      "name": "Facility Usage",
+      "category": "Market Signals",
+      "definition": "The amount borrowed from or placed into a central-bank facility over a specified period.",
+      "marketWatch": [
+        "liquidity",
+        "funding stress",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Usage can reflect pricing, market structure, regulation or operational convenience—not only stress.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Standing-facility use",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "SRF / ON RRP / discount-window usage",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Facility/operation take-up",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "overnight-rate-drift",
+      "name": "Overnight Rate Drift",
+      "category": "Market Signals",
+      "definition": "A persistent movement of an overnight market rate toward one side of the central bank's intended operating range.",
+      "marketWatch": [
+        "overnight rates",
+        "reserve conditions",
+        "policy implementation"
+      ],
+      "whatPeopleGetWrong": "Small movements can be normal; interpretation depends on the framework and maintenance cycle.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "EFFR relative to target range/IORB",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "€STR relative to facility rates",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "SONIA relative to Bank Rate",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "collateral-scarcity",
+      "name": "Collateral Scarcity",
+      "category": "Market Signals",
+      "definition": "A condition in which particular high-quality securities become unusually valuable for financing or settlement, affecting repo pricing and market functioning.",
+      "marketWatch": [
+        "repo specialness",
+        "settlement",
+        "securities lending"
+      ],
+      "whatPeopleGetWrong": "Collateral scarcity is distinct from a shortage of central-bank reserves.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Collateral scarcity / securities-lending context",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Treasury specialness / repo collateral demand",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "JGB scarcity / securities lending facility",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "mlf-china",
+      "name": "Medium-term Lending Facility (MLF)",
+      "category": "China / PBoC",
+      "definition": "A PBoC lending operation that provides medium-term funding to eligible financial institutions against collateral and has historically played a role in China's monetary-policy implementation.",
+      "marketWatch": [
+        "CNY liquidity",
+        "bank funding",
+        "policy transmission"
+      ],
+      "whatPeopleGetWrong": "MLF should not be translated mechanically into an ECB LTRO; institutional design and policy signalling differ.",
+      "translations": [
+        {
+          "centralBank": "PBoC",
+          "term": "Medium-term Lending Facility (MLF)",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "LTRO",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Term funds-supplying operations",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "No direct current equivalent",
+          "relationship": "no-direct-equivalent"
+        }
+      ]
+    },
+    {
+      "slug": "rrr-china",
+      "name": "Reserve Requirement Ratio (RRR)",
+      "category": "China / PBoC",
+      "definition": "The required share of specified deposits that banks must hold as reserves under China's reserve-requirement framework.",
+      "marketWatch": [
+        "bank liquidity",
+        "credit capacity",
+        "reserves"
+      ],
+      "whatPeopleGetWrong": "An RRR change affects structural liquidity conditions but is not equivalent to a policy-rate change.",
+      "translations": [
+        {
+          "centralBank": "PBoC",
+          "term": "Reserve Requirement Ratio",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Minimum reserve requirement",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Reserve deposit requirement",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Reserve requirement ratio (currently zero)",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "omo-china",
+      "name": "PBoC Open Market Operations",
+      "category": "China / PBoC",
+      "definition": "Market operations used by the People's Bank of China to add or absorb short-term liquidity, commonly through repo-style instruments.",
+      "marketWatch": [
+        "CNY liquidity",
+        "repo",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Identical labels across central banks do not imply identical instruments or operating frameworks.",
+      "translations": [
+        {
+          "centralBank": "PBoC",
+          "term": "Open Market Operations",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Open market operations",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Open market operations",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Money market operations",
+          "relationship": "similar-function"
+        }
+      ]
+    },
+    {
+      "slug": "mas-sneer",
+      "name": "S$NEER Policy Band",
+      "category": "Singapore / MAS",
+      "definition": "Singapore's exchange-rate-centred monetary-policy framework, in which MAS manages the Singapore dollar nominal effective exchange rate within a policy band rather than using a conventional short-term policy rate as its primary instrument.",
+      "marketWatch": [
+        "SGD",
+        "exchange rate",
+        "inflation transmission"
+      ],
+      "whatPeopleGetWrong": "Do not translate MAS policy into a conventional rate-hike/rate-cut framework.",
+      "translations": [
+        {
+          "centralBank": "MAS",
+          "term": "S$NEER policy band",
+          "relationship": "exact"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "No direct equivalent",
+          "relationship": "no-direct-equivalent"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "No direct equivalent",
+          "relationship": "no-direct-equivalent"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "No direct equivalent",
+          "relationship": "no-direct-equivalent"
+        }
+      ]
+    },
+    {
+      "slug": "cash-rate-corridor",
+      "name": "Cash Rate Corridor",
+      "category": "Australia / RBA",
+      "definition": "The operational structure around the RBA cash-rate target in which standing remuneration and lending arrangements help guide the overnight cash rate.",
+      "marketWatch": [
+        "cash rate",
+        "overnight funding",
+        "reserves"
+      ],
+      "whatPeopleGetWrong": "Corridor width and implementation details differ across central banks.",
+      "translations": [
+        {
+          "centralBank": "RBA",
+          "term": "Cash rate corridor",
+          "relationship": "exact-concept"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Standing-facility corridor",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "BoC",
+          "term": "Operating band",
+          "relationship": "similar-function"
+        },
+        {
+          "centralBank": "Fed",
+          "term": "Administered-rate framework",
+          "relationship": "related"
+        }
+      ]
+    }
+  ]
+}

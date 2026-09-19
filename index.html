@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Central Bank Translator | BondStats</title>
+<meta name="description" content="Translate central-bank plumbing across the Fed, ECB, BoE, BoJ, PBoC, MAS and other monetary systems without pretending different instruments are identical.">
+<style>
+:root{--bg:#050b0c;--panel:#091214;--line:#183033;--text:#edf6f3;--muted:#93aaa5;--green:#31e69a;--amber:#f3ca65}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{border-bottom:1px solid var(--line);padding:18px 5vw;display:flex;justify-content:space-between;align-items:center}.brand{font-weight:800;font-size:20px}.tag{color:var(--green);font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+main{max-width:1240px;margin:auto;padding:58px 24px 90px}.hero{max-width:920px}.hero h1{font-size:clamp(48px,8vw,92px);line-height:.95;margin:12px 0 22px;letter-spacing:-.055em}.hero p{font-size:20px;color:#b8c9c5;max-width:780px}
+.rule{display:inline-flex;border:1px solid #245d47;color:#baf6d9;background:#071912;padding:8px 12px;border-radius:999px;margin-top:14px}
+.searchbox{margin-top:48px;border:1px solid var(--line);background:var(--panel);border-radius:18px;padding:20px}.searchbox input{width:100%;background:#050b0c;border:1px solid #244044;border-radius:12px;padding:17px;color:white;font-size:18px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.filters button{background:transparent;border:1px solid #244044;color:#c5d3d0;border-radius:999px;padding:8px 12px;cursor:pointer}.filters button.on{border-color:#228d5b;color:#d5ffea;background:#092217}
+.count{color:var(--muted);margin:20px 2px}.grid{display:grid;gap:14px}.card{border:1px solid var(--line);background:linear-gradient(180deg,#091315,#071012);border-radius:16px;padding:22px}.top{display:flex;gap:12px;justify-content:space-between}.cat{color:var(--green);font-size:11px;text-transform:uppercase;letter-spacing:.12em}.card h2{font-size:25px;margin:5px 0}.definition{color:#c1d0cd;max-width:900px}.map{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px;margin-top:18px}.mapitem{border:1px solid #17383a;border-radius:10px;padding:12px}.bank{font-size:11px;color:#8aa39d}.term{font-weight:700;margin:3px 0}.rel{font-size:11px;color:var(--green)}.warning{margin-top:16px;padding-top:14px;border-top:1px solid #142a2c;color:#d5c994}.watch{margin-top:12px;color:#9db2ad}.watch span{display:inline-block;border:1px solid #1d4637;border-radius:6px;padding:3px 7px;margin:3px;color:#bde9d5;font-size:11px}
+.empty{padding:40px;border:1px dashed #244044;border-radius:14px;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:30px 5vw;color:var(--muted)}
+@media(max-width:650px){main{padding-top:35px}.top{display:block}.hero p{font-size:17px}}
+</style></head>
+<body><header><div class="brand">BondStats</div><div class="tag">Central Bank Plumbing</div></header>
+<main>
+<section class="hero"><div class="tag">One monetary system. Different languages.</div><h1>Central Bank Translator</h1>
+<p>Translate the operational language of central banks without pretending that different instruments are identical. Search a facility, reserve concept or liquidity operation and see the closest functional relationships across monetary systems.</p>
+<div class="rule">Functional translation ≠ false equivalence</div></section>
+<section class="searchbox"><input id="q" placeholder="Try: standing facility, reserves, repo, MLF, S$NEER…" autocomplete="off"><div class="filters" id="filters"></div></section>
+<div class="count" id="count"></div><section class="grid" id="grid"></section>
+</main><footer>BondStats Ltd · Educational and market-structure research. Instrument mappings describe operational relationships, not legal equivalence or investment advice.</footer>
+<script>
+let DATA=[],active="All";
+const banks=["All","Fed","ECB","BoE","BoJ","PBoC","MAS","RBA"];
+const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+async function init(){const r=await fetch("./data/translator.json");const j=await r.json();DATA=j.entries;renderFilters();render()}
+function renderFilters(){document.querySelector("#filters").innerHTML=banks.map(b=>`<button class="${b===active?"on":""}" data-b="${b}">${b}</button>`).join("");document.querySelectorAll("[data-b]").forEach(x=>x.onclick=()=>{active=x.dataset.b;renderFilters();render()})}
+function render(){const q=document.querySelector("#q").value.trim().toLowerCase();let a=DATA.filter(e=>{const blob=JSON.stringify(e).toLowerCase();const bank=active==="All"||e.translations.some(t=>t.centralBank===active);return bank&&(!q||blob.includes(q))});document.querySelector("#count").textContent=`${a.length} concepts · ${active==="All"?"cross-central-bank":active} view`;document.querySelector("#grid").innerHTML=a.length?a.map(card).join(""):`<div class="empty">No matching concept. Try a broader operational term.</div>`}
+function card(e){return `<article class="card"><div class="top"><div><div class="cat">${esc(e.category)}</div><h2>${esc(e.name)}</h2></div></div><div class="definition">${esc(e.definition)}</div><div class="map">${e.translations.map(t=>`<div class="mapitem"><div class="bank">${esc(t.centralBank)}</div><div class="term">${esc(t.term)}</div><div class="rel">${esc(t.relationship.replaceAll("-"," "))}</div></div>`).join("")}</div><div class="watch">WATCH IN MARKETS ${e.marketWatch.map(x=>`<span>${esc(x)}</span>`).join("")}</div><div class="warning"><b>What people get wrong:</b> ${esc(e.whatPeopleGetWrong)}</div></article>`}
+document.querySelector("#q").addEventListener("input",render);init().catch(e=>{document.querySelector("#grid").innerHTML='<div class="empty">Translator data could not be loaded.</div>'})
+</script></body></html>
