@@ -1,7 +1,7 @@
 {
   "product": "BondStats Central Bank Translator",
-  "version": "1.0.0",
-  "principle": "Functional translation, not false equivalence.",
+  "version": "2.0.0",
+  "principle": "Translate function, mechanics and market consequence — never manufacture equivalence.",
   "copyright": "Original BondStats explanatory text and taxonomy. Official institution names and factual instrument names are referenced for identification; no third-party prose, charts, logos or database content is reproduced.",
   "relationshipLegend": {
     "exact": "Same named instrument in its home institution.",
@@ -1344,6 +1344,4889 @@
           "relationship": "related"
         }
       ]
+    },
+    {
+      "slug": "discount-window",
+      "name": "Discount Window",
+      "category": "Facilities",
+      "definition": "Federal Reserve lending to eligible depository institutions through Reserve Banks, subject to applicable credit programs, collateral and terms.",
+      "marketWatch": [
+        "bank funding",
+        "reserves",
+        "funding stress"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "primary-credit",
+      "name": "Primary Credit",
+      "category": "Facilities",
+      "definition": "The principal Discount Window credit program for generally sound eligible depository institutions, normally offered on a short-term basis.",
+      "marketWatch": [
+        "discount rate",
+        "bank funding",
+        "reserves"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "central-bank-swap-line",
+      "name": "Central Bank Liquidity Swap Line",
+      "category": "Facilities",
+      "definition": "An arrangement through which central banks exchange currencies so a receiving central bank can provide foreign-currency liquidity to institutions in its jurisdiction.",
+      "marketWatch": [
+        "cross-currency basis",
+        "USD funding",
+        "FX liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "foreign-currency-liquidity",
+      "name": "Foreign-Currency Liquidity Operation",
+      "category": "Operations",
+      "definition": "A central-bank operation that supplies liquidity denominated in a currency other than the domestic currency, often using swap-line funding.",
+      "marketWatch": [
+        "FX funding",
+        "cross-currency basis",
+        "bank liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "securities-lending-facility",
+      "name": "Securities Lending Facility",
+      "category": "Facilities",
+      "definition": "A facility through which a central bank lends securities from its holdings to eligible counterparties to support market functioning or settlement.",
+      "marketWatch": [
+        "repo specialness",
+        "settlement",
+        "collateral"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "emergency-liquidity-assistance",
+      "name": "Emergency Liquidity Assistance (ELA)",
+      "category": "Facilities",
+      "definition": "Exceptional liquidity support provided under a specific institutional framework to solvent financial institutions facing temporary liquidity problems; rules vary by jurisdiction.",
+      "marketWatch": [
+        "bank funding",
+        "liquidity stress",
+        "collateral"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-maintenance-period",
+      "name": "Reserve Maintenance Period",
+      "category": "Reserves",
+      "definition": "The period over which institutions measure or satisfy applicable reserve obligations or averaging conditions.",
+      "marketWatch": [
+        "reserve demand",
+        "overnight rates",
+        "calendar effects"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-demand",
+      "name": "Reserve Demand",
+      "category": "Reserves",
+      "definition": "The amount of central-bank balances institutions want to hold at given rates and under prevailing payment, regulatory and liquidity conditions.",
+      "marketWatch": [
+        "overnight rates",
+        "repo",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-remuneration",
+      "name": "Reserve Remuneration",
+      "category": "Reserve Remuneration",
+      "definition": "Interest paid, or not paid, on specified central-bank reserve balances under the operating framework.",
+      "marketWatch": [
+        "overnight rates",
+        "bank income",
+        "reserve demand"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "tiered-reserve-remuneration",
+      "name": "Tiered Reserve Remuneration",
+      "category": "Reserve Remuneration",
+      "definition": "A system in which different portions of reserve balances receive different rates or treatment.",
+      "marketWatch": [
+        "bank income",
+        "reserve demand",
+        "policy transmission"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "settlement-balances",
+      "name": "Settlement Balances",
+      "category": "Reserves",
+      "definition": "Balances held by financial institutions at a central bank and used to settle eligible payments and obligations.",
+      "marketWatch": [
+        "payments",
+        "overnight rates",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "current-account-balances-boj",
+      "name": "BOJ Current Account Balances",
+      "category": "Japan / BoJ",
+      "definition": "Balances held in current accounts at the Bank of Japan by financial institutions and other eligible account holders.",
+      "marketWatch": [
+        "JPY liquidity",
+        "reserves",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoJ",
+          "term": "BOJ Current Account Balances",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "structural-liquidity-deficit",
+      "name": "Structural Liquidity Deficit",
+      "category": "Liquidity",
+      "definition": "A persistent need for central-bank liquidity created when structural drains such as banknotes, government deposits or reserve requirements exceed autonomous liquidity sources.",
+      "marketWatch": [
+        "refinancing",
+        "reserves",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "structural-liquidity-surplus",
+      "name": "Structural Liquidity Surplus",
+      "category": "Liquidity",
+      "definition": "A persistent excess of central-bank liquidity relative to the banking system's structural needs, often associated with large asset holdings or past liquidity provision.",
+      "marketWatch": [
+        "deposit facilities",
+        "overnight rates",
+        "excess liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "excess-liquidity",
+      "name": "Excess Liquidity",
+      "category": "Liquidity",
+      "definition": "Central-bank liquidity held by the banking system beyond minimum or operational needs under the relevant framework.",
+      "marketWatch": [
+        "overnight rates",
+        "deposit facility",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "liquidity-forecast",
+      "name": "Central Bank Liquidity Forecast",
+      "category": "Liquidity",
+      "definition": "An estimate of how autonomous factors, reserve requirements and operations will change aggregate central-bank liquidity over a future horizon.",
+      "marketWatch": [
+        "open market operations",
+        "reserves",
+        "overnight rates"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "banknotes-autonomous-factor",
+      "name": "Banknotes in Circulation",
+      "category": "Liquidity",
+      "definition": "Currency issued by a central bank that generally represents a central-bank liability and can absorb reserves when demand for physical cash rises, all else equal.",
+      "marketWatch": [
+        "reserves",
+        "autonomous factors",
+        "seasonality"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "treasury-general-account",
+      "name": "Treasury General Account (TGA)",
+      "category": "US / Fed",
+      "definition": "The U.S. Treasury's principal account at the Federal Reserve; movements into or out of it can drain or add banking-system reserves, all else equal.",
+      "marketWatch": [
+        "reserves",
+        "Treasury cash",
+        "repo"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Treasury General Account (TGA)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "open-market-operation",
+      "name": "Open Market Operation",
+      "category": "Operations",
+      "definition": "A central-bank transaction in financial markets used to implement monetary policy or manage liquidity, with the exact instruments varying by framework.",
+      "marketWatch": [
+        "reserves",
+        "overnight rates",
+        "securities"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reverse-transaction",
+      "name": "Reverse Transaction",
+      "category": "Operations",
+      "definition": "A collateralised central-bank transaction that is reversed at a later date, including repo-style lending or borrowing structures.",
+      "marketWatch": [
+        "repo",
+        "collateral",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "standard-tender",
+      "name": "Standard Tender",
+      "category": "Operations",
+      "definition": "A scheduled central-bank tender conducted under standard procedures and timelines for eligible counterparties.",
+      "marketWatch": [
+        "allotment",
+        "refinancing",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "quick-tender",
+      "name": "Quick Tender",
+      "category": "Operations",
+      "definition": "An accelerated tender procedure used when a central bank needs to execute an operation more rapidly than under its standard tender process.",
+      "marketWatch": [
+        "fine tuning",
+        "liquidity",
+        "overnight rates"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "variable-rate-tender",
+      "name": "Variable-Rate Tender",
+      "category": "Operations",
+      "definition": "A tender in which counterparties submit bids that include an interest rate, with allotment determined under the central bank's auction rules.",
+      "marketWatch": [
+        "allotment",
+        "refinancing rate",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "fixed-rate-tender",
+      "name": "Fixed-Rate Tender",
+      "category": "Operations",
+      "definition": "A tender in which the central bank specifies the interest rate and counterparties bid for quantities.",
+      "marketWatch": [
+        "allotment",
+        "refinancing",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "allotment",
+      "name": "Allotment",
+      "category": "Operations",
+      "definition": "The quantity of funds or securities awarded to counterparties in a central-bank tender or operation.",
+      "marketWatch": [
+        "tenders",
+        "liquidity",
+        "funding"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "pro-rata-allotment",
+      "name": "Pro-Rata Allotment",
+      "category": "Operations",
+      "definition": "An allocation method in which accepted bids are scaled proportionally when total demand exceeds the amount the central bank chooses to provide.",
+      "marketWatch": [
+        "tenders",
+        "funding demand",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "structural-operation",
+      "name": "Structural Operation",
+      "category": "Operations",
+      "definition": "An operation intended to adjust the central bank's structural liquidity position relative to the banking system over a longer horizon.",
+      "marketWatch": [
+        "reserves",
+        "balance sheet",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "structural-portfolio",
+      "name": "Structural Securities Portfolio",
+      "category": "Balance Sheet",
+      "definition": "A securities portfolio designed to provide reserves on a durable basis as part of an operating framework rather than primarily to alter the monetary-policy stance.",
+      "marketWatch": [
+        "reserves",
+        "balance sheet",
+        "duration"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "asset-purchase-programme",
+      "name": "Asset Purchase Programme",
+      "category": "Balance Sheet",
+      "definition": "A program of outright central-bank purchases of specified assets intended to affect financing conditions, transmission or market functioning according to its mandate and design.",
+      "marketWatch": [
+        "yields",
+        "reserves",
+        "term premium"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "quantitative-easing",
+      "name": "Quantitative Easing (QE)",
+      "category": "Balance Sheet",
+      "definition": "Large-scale central-bank asset purchases used to ease financial conditions when conventional policy-rate changes alone are insufficient or constrained.",
+      "marketWatch": [
+        "bond yields",
+        "term premium",
+        "reserves"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "quantitative-tightening",
+      "name": "Quantitative Tightening (QT)",
+      "category": "Balance Sheet",
+      "definition": "A reduction in central-bank asset holdings or reinvestment that contracts the balance sheet relative to an earlier asset-purchase phase.",
+      "marketWatch": [
+        "reserves",
+        "duration supply",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "maturity-rolloff",
+      "name": "Maturity Roll-Off",
+      "category": "Balance Sheet",
+      "definition": "The decline in a securities portfolio when maturing assets are not fully replaced through reinvestment.",
+      "marketWatch": [
+        "balance sheet",
+        "reserves",
+        "duration supply"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "active-asset-sales",
+      "name": "Active Asset Sales",
+      "category": "Balance Sheet",
+      "definition": "Central-bank sales of securities before maturity, directly reducing holdings rather than waiting for assets to mature.",
+      "marketWatch": [
+        "bond supply",
+        "reserves",
+        "market liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "soma",
+      "name": "System Open Market Account (SOMA)",
+      "category": "US / Fed",
+      "definition": "The Federal Reserve portfolio that holds securities and other assets acquired through open-market operations and related activities.",
+      "marketWatch": [
+        "Treasuries",
+        "MBS",
+        "Fed balance sheet"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "System Open Market Account (SOMA)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "app-ecb",
+      "name": "Asset Purchase Programme (APP)",
+      "category": "Euro Area / ECB",
+      "definition": "The Eurosystem asset-purchase umbrella introduced for monetary-policy purposes, comprising several purchase programs and now principally relevant through its legacy holdings and runoff.",
+      "marketWatch": [
+        "euro yields",
+        "balance sheet",
+        "reinvestment"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Asset Purchase Programme (APP)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "pepp",
+      "name": "Pandemic Emergency Purchase Programme (PEPP)",
+      "category": "Euro Area / ECB",
+      "definition": "The Eurosystem's pandemic-era asset-purchase program designed with flexibility across time, asset classes and jurisdictions to counter pandemic-related risks to transmission.",
+      "marketWatch": [
+        "euro yields",
+        "spreads",
+        "balance sheet"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Pandemic Emergency Purchase Programme (PEPP)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "transmission-protection-instrument",
+      "name": "Transmission Protection Instrument (TPI)",
+      "category": "Euro Area / ECB",
+      "definition": "An ECB instrument designed to support effective monetary-policy transmission by allowing purchases under specified conditions when unwarranted disorderly market dynamics threaten transmission.",
+      "marketWatch": [
+        "sovereign spreads",
+        "transmission",
+        "euro rates"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Transmission Protection Instrument (TPI)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "securities-markets-programme",
+      "name": "Securities Markets Programme (SMP)",
+      "category": "Euro Area / ECB",
+      "definition": "A historical Eurosystem program of interventions in public and private debt securities markets introduced during the euro-area sovereign-debt crisis.",
+      "marketWatch": [
+        "sovereign spreads",
+        "legacy holdings",
+        "transmission"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "Securities Markets Programme (SMP)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "yield-curve-control",
+      "name": "Yield Curve Control",
+      "category": "Operating Frameworks",
+      "definition": "A policy approach in which a central bank targets or guides yields at specified maturities rather than relying solely on an overnight policy rate.",
+      "marketWatch": [
+        "government bond yields",
+        "duration",
+        "policy expectations"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "negative-interest-rate-policy",
+      "name": "Negative Interest Rate Policy (NIRP)",
+      "category": "Operating Frameworks",
+      "definition": "A policy configuration in which a central-bank administered rate is set below zero to influence money-market rates and broader financial conditions.",
+      "marketWatch": [
+        "deposit rates",
+        "FX",
+        "bank margins"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "effective-lower-bound",
+      "name": "Effective Lower Bound",
+      "category": "Operating Frameworks",
+      "definition": "The practical lower region for nominal policy rates beyond which further cuts may become less effective or create larger side effects.",
+      "marketWatch": [
+        "policy rates",
+        "cash demand",
+        "QE"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "administered-rate",
+      "name": "Administered Rate",
+      "category": "Operating Frameworks",
+      "definition": "A rate set directly by a central bank on balances or facilities rather than determined solely through market trading.",
+      "marketWatch": [
+        "overnight rates",
+        "reserves",
+        "facilities"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "operational-target",
+      "name": "Operational Target",
+      "category": "Operating Frameworks",
+      "definition": "The market rate, reserve quantity or other near-term variable a central bank seeks to steer directly when implementing its policy stance.",
+      "marketWatch": [
+        "overnight rates",
+        "reserves",
+        "implementation"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "policy-rate",
+      "name": "Policy Rate",
+      "category": "Operating Frameworks",
+      "definition": "An official central-bank rate used to communicate or implement the monetary-policy stance; the relevant rate differs across frameworks.",
+      "marketWatch": [
+        "yield curve",
+        "FX",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "money-market-transmission",
+      "name": "Money-Market Transmission",
+      "category": "Transmission",
+      "definition": "The process through which central-bank rates and liquidity conditions influence overnight and short-term wholesale funding rates.",
+      "marketWatch": [
+        "overnight rates",
+        "repo",
+        "OIS"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "bank-lending-channel",
+      "name": "Bank Lending Channel",
+      "category": "Transmission",
+      "definition": "The transmission mechanism through which monetary conditions affect banks' funding, balance sheets and willingness or ability to extend credit.",
+      "marketWatch": [
+        "bank credit",
+        "loan rates",
+        "funding"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "portfolio-rebalancing-channel",
+      "name": "Portfolio Rebalancing Channel",
+      "category": "Transmission",
+      "definition": "A mechanism through which central-bank asset purchases or holdings alter the relative supply of assets and encourage investors to rebalance portfolios.",
+      "marketWatch": [
+        "term premium",
+        "credit spreads",
+        "asset prices"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "expectations-channel",
+      "name": "Expectations Channel",
+      "category": "Transmission",
+      "definition": "The mechanism through which central-bank communication and actions influence expectations of future policy, inflation and economic conditions.",
+      "marketWatch": [
+        "forward rates",
+        "yield curve",
+        "FX"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "collateral-channel",
+      "name": "Collateral Channel",
+      "category": "Transmission",
+      "definition": "A mechanism through which changes in collateral values, eligibility or financing conditions affect borrowing capacity and market liquidity.",
+      "marketWatch": [
+        "repo",
+        "haircuts",
+        "credit"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "exchange-rate-channel",
+      "name": "Exchange-Rate Channel",
+      "category": "Transmission",
+      "definition": "The transmission mechanism through which monetary policy affects the exchange rate and thereby import prices, demand and financial conditions.",
+      "marketWatch": [
+        "FX",
+        "inflation",
+        "trade"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "forward-guidance",
+      "name": "Forward Guidance",
+      "category": "Communication",
+      "definition": "Central-bank communication intended to shape expectations about the likely future path or reaction function of monetary policy.",
+      "marketWatch": [
+        "OIS",
+        "yield curve",
+        "FX"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reaction-function",
+      "name": "Central Bank Reaction Function",
+      "category": "Communication",
+      "definition": "A conceptual description of how policymakers adjust instruments in response to inflation, activity, financial conditions and other mandate-relevant information.",
+      "marketWatch": [
+        "policy expectations",
+        "yield curve",
+        "macro data"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "repo-specialness",
+      "name": "Repo Specialness",
+      "category": "Market Signals",
+      "definition": "The extent to which a particular security finances at an unusually low repo rate because it is especially sought after as collateral.",
+      "marketWatch": [
+        "repo",
+        "collateral scarcity",
+        "Treasuries"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "fails-to-deliver",
+      "name": "Settlement Fails",
+      "category": "Market Signals",
+      "definition": "Failures to deliver securities as scheduled, which can reveal settlement frictions or scarcity in particular collateral.",
+      "marketWatch": [
+        "repo",
+        "settlement",
+        "collateral"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "secured-unsecured-spread",
+      "name": "Secured–Unsecured Funding Spread",
+      "category": "Market Signals",
+      "definition": "The difference between secured and unsecured short-term funding rates, useful for separating collateral conditions from bank-credit and liquidity premia.",
+      "marketWatch": [
+        "repo",
+        "bank funding",
+        "stress"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "ois",
+      "name": "Overnight Index Swap (OIS)",
+      "category": "Market Signals",
+      "definition": "An interest-rate swap referencing an overnight rate, widely used to express or infer expectations for future overnight rates.",
+      "marketWatch": [
+        "policy expectations",
+        "yield curve",
+        "basis"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "effr",
+      "name": "Effective Federal Funds Rate (EFFR)",
+      "category": "US / Fed",
+      "definition": "A volume-weighted median measure of overnight unsecured federal funds transactions, used as the Federal Reserve's principal policy-rate reference within the target range.",
+      "marketWatch": [
+        "Fed policy",
+        "overnight funding",
+        "IORB"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Effective Federal Funds Rate (EFFR)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "sofr",
+      "name": "Secured Overnight Financing Rate (SOFR)",
+      "category": "US / Fed",
+      "definition": "A broad measure of the cost of overnight borrowing collateralised by U.S. Treasury securities in the repo market.",
+      "marketWatch": [
+        "repo",
+        "Treasuries",
+        "USD funding"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Secured Overnight Financing Rate (SOFR)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "estr",
+      "name": "€STR",
+      "category": "Euro Area / ECB",
+      "definition": "The euro short-term rate measuring wholesale euro unsecured overnight borrowing costs of euro-area banks using transaction data reported to the Eurosystem.",
+      "marketWatch": [
+        "ECB policy",
+        "overnight funding",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "ECB",
+          "term": "€STR",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "sonia",
+      "name": "SONIA",
+      "category": "UK / BoE",
+      "definition": "The Sterling Overnight Index Average, measuring overnight sterling unsecured wholesale transactions and administered by the Bank of England.",
+      "marketWatch": [
+        "Bank Rate",
+        "sterling funding",
+        "OIS"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoE",
+          "term": "SONIA",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "tonar",
+      "name": "TONA / TONAR",
+      "category": "Japan / BoJ",
+      "definition": "Japan's uncollateralised overnight call rate benchmark used as a reference for overnight yen money-market conditions and derivatives.",
+      "marketWatch": [
+        "BoJ policy",
+        "JPY funding",
+        "OIS"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoJ",
+          "term": "TONA / TONAR",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "discount-rate",
+      "name": "Discount Rate",
+      "category": "US / Fed",
+      "definition": "The interest rate charged on specified Federal Reserve Discount Window credit; the exact rate depends on the credit program.",
+      "marketWatch": [
+        "bank funding",
+        "policy corridor",
+        "stress"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Discount Rate",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "target-range",
+      "name": "Federal Funds Target Range",
+      "category": "US / Fed",
+      "definition": "The FOMC's target range for the federal funds rate, implemented using administered rates and other tools.",
+      "marketWatch": [
+        "EFFR",
+        "IORB",
+        "ON RRP"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Federal Funds Target Range",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "bank-rate",
+      "name": "Bank Rate",
+      "category": "UK / BoE",
+      "definition": "The Bank of England's principal policy rate, which anchors its sterling monetary-policy implementation framework.",
+      "marketWatch": [
+        "SONIA",
+        "gilts",
+        "sterling"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoE",
+          "term": "Bank Rate",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "short-term-repo-boe",
+      "name": "Short-Term Repo (STR)",
+      "category": "UK / BoE",
+      "definition": "A Bank of England reserve-supplying repo operation forming part of its framework for providing reserves against eligible collateral.",
+      "marketWatch": [
+        "sterling liquidity",
+        "reserves",
+        "repo"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoE",
+          "term": "Short-Term Repo (STR)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "indexed-long-term-repo",
+      "name": "Indexed Long-Term Repo (ILTR)",
+      "category": "UK / BoE",
+      "definition": "A Bank of England liquidity insurance operation that supplies reserves for a longer term against collateral with pricing linked to demand.",
+      "marketWatch": [
+        "liquidity insurance",
+        "collateral",
+        "sterling funding"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoE",
+          "term": "Indexed Long-Term Repo (ILTR)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "discount-window-facility-boe",
+      "name": "Discount Window Facility (DWF)",
+      "category": "UK / BoE",
+      "definition": "A bilateral Bank of England liquidity insurance facility allowing eligible participants to borrow highly liquid assets against less liquid collateral.",
+      "marketWatch": [
+        "liquidity insurance",
+        "collateral",
+        "bank funding"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoE",
+          "term": "Discount Window Facility (DWF)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "reserves-account-boe",
+      "name": "Reserves Account",
+      "category": "UK / BoE",
+      "definition": "An account at the Bank of England through which eligible institutions hold central-bank reserves for settlement and monetary-policy implementation.",
+      "marketWatch": [
+        "SONIA",
+        "payments",
+        "reserves"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoE",
+          "term": "Reserves Account",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "complementary-deposit-facility",
+      "name": "Complementary Deposit Facility",
+      "category": "Japan / BoJ",
+      "definition": "A Bank of Japan facility governing remuneration of specified current-account balances held by eligible financial institutions.",
+      "marketWatch": [
+        "JPY reserves",
+        "overnight rates",
+        "remuneration"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoJ",
+          "term": "Complementary Deposit Facility",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "complementary-lending-facility",
+      "name": "Complementary Lending Facility",
+      "category": "Japan / BoJ",
+      "definition": "A Bank of Japan facility through which eligible counterparties can obtain overnight funds against eligible collateral under specified terms.",
+      "marketWatch": [
+        "JPY funding",
+        "collateral",
+        "overnight rates"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoJ",
+          "term": "Complementary Lending Facility",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "pooled-collateral-operation",
+      "name": "Funds-Supplying Operations against Pooled Collateral",
+      "category": "Japan / BoJ",
+      "definition": "Bank of Japan loans to counterparties backed by collateral submitted to a pooled collateral framework.",
+      "marketWatch": [
+        "JPY liquidity",
+        "collateral",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoJ",
+          "term": "Funds-Supplying Operations against Pooled Collateral",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "jgb-purchases",
+      "name": "Outright Purchases of JGBs",
+      "category": "Japan / BoJ",
+      "definition": "Bank of Japan outright purchases of Japanese government bonds conducted under its monetary-policy and market-operations framework.",
+      "marketWatch": [
+        "JGB yields",
+        "balance sheet",
+        "duration"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoJ",
+          "term": "Outright Purchases of JGBs",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "loan-support-program",
+      "name": "Loan Support Program",
+      "category": "Japan / BoJ",
+      "definition": "A Bank of Japan framework providing funding through specified measures intended to support financial institutions' lending.",
+      "marketWatch": [
+        "bank lending",
+        "term funding",
+        "JPY liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoJ",
+          "term": "Loan Support Program",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "lpr-china",
+      "name": "Loan Prime Rate (LPR)",
+      "category": "China / PBoC",
+      "definition": "A benchmark lending-rate quotation framework in China that is linked to bank loan pricing and influenced by the monetary-policy environment.",
+      "marketWatch": [
+        "CNY lending rates",
+        "credit",
+        "policy transmission"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "PBoC",
+          "term": "Loan Prime Rate (LPR)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "reverse-repo-pboc",
+      "name": "PBoC Reverse Repo",
+      "category": "China / PBoC",
+      "definition": "A short-term PBoC open-market operation used to supply liquidity to the banking system against eligible securities.",
+      "marketWatch": [
+        "CNY liquidity",
+        "repo",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "PBoC",
+          "term": "PBoC Reverse Repo",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "central-bank-bills",
+      "name": "Central Bank Bills",
+      "category": "Operations",
+      "definition": "Debt instruments issued by a central bank, often used in some frameworks to absorb liquidity or support monetary operations.",
+      "marketWatch": [
+        "liquidity absorption",
+        "money markets",
+        "central-bank balance sheet"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "sneer-slope",
+      "name": "S$NEER Policy-Band Slope",
+      "category": "Singapore / MAS",
+      "definition": "The appreciation or depreciation path embedded in the slope of MAS's S$NEER policy band, one dimension of Singapore's exchange-rate-centred framework.",
+      "marketWatch": [
+        "SGD",
+        "inflation",
+        "FX"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "MAS",
+          "term": "S$NEER Policy-Band Slope",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "sneer-width",
+      "name": "S$NEER Policy-Band Width",
+      "category": "Singapore / MAS",
+      "definition": "The permitted fluctuation range around the S$NEER policy band's centre, which affects how much exchange-rate movement can occur before policy intervention becomes more likely.",
+      "marketWatch": [
+        "SGD volatility",
+        "FX",
+        "policy framework"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "MAS",
+          "term": "S$NEER Policy-Band Width",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "sneer-centre",
+      "name": "S$NEER Policy-Band Centre",
+      "category": "Singapore / MAS",
+      "definition": "The central path of the S$NEER policy band; re-centring changes the reference level of Singapore's exchange-rate policy framework.",
+      "marketWatch": [
+        "SGD",
+        "FX",
+        "inflation"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "MAS",
+          "term": "S$NEER Policy-Band Centre",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "cash-rate-target",
+      "name": "Cash Rate Target",
+      "category": "Australia / RBA",
+      "definition": "The Reserve Bank of Australia's target for the overnight cash rate, implemented through its domestic market operations and standing facilities.",
+      "marketWatch": [
+        "AUD rates",
+        "overnight funding",
+        "OIS"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "RBA",
+          "term": "Cash Rate Target",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "exchange-settlement-balances",
+      "name": "Exchange Settlement Balances",
+      "category": "Australia / RBA",
+      "definition": "Balances held by eligible institutions at the Reserve Bank of Australia for settlement and liquidity purposes.",
+      "marketWatch": [
+        "AUD liquidity",
+        "payments",
+        "cash rate"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "RBA",
+          "term": "Exchange Settlement Balances",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "official-cash-rate",
+      "name": "Official Cash Rate (OCR)",
+      "category": "New Zealand / RBNZ",
+      "definition": "The Reserve Bank of New Zealand's principal policy rate used to influence short-term interest rates and monetary conditions.",
+      "marketWatch": [
+        "NZD rates",
+        "FX",
+        "OIS"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "RBNZ",
+          "term": "Official Cash Rate (OCR)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "overnight-cash-rate-canada",
+      "name": "Overnight Rate Target",
+      "category": "Canada / BoC",
+      "definition": "The Bank of Canada's target for the overnight rate, implemented through its operating framework and settlement balances.",
+      "marketWatch": [
+        "CAD rates",
+        "CORRA",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoC",
+          "term": "Overnight Rate Target",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "operating-band-canada",
+      "name": "Operating Band",
+      "category": "Canada / BoC",
+      "definition": "The interest-rate corridor around Canada's overnight target formed by central-bank deposit and lending arrangements.",
+      "marketWatch": [
+        "overnight rates",
+        "settlement balances",
+        "corridor"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoC",
+          "term": "Operating Band",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "corra",
+      "name": "CORRA",
+      "category": "Canada / BoC",
+      "definition": "The Canadian Overnight Repo Rate Average, a measure of overnight general-collateral repo funding in Canadian dollars.",
+      "marketWatch": [
+        "repo",
+        "CAD funding",
+        "OIS"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoC",
+          "term": "CORRA",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "repo-rate-india",
+      "name": "Policy Repo Rate",
+      "category": "India / RBI",
+      "definition": "The Reserve Bank of India's principal repo policy rate within its liquidity-management and monetary-policy framework.",
+      "marketWatch": [
+        "INR rates",
+        "bank funding",
+        "government bonds"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "RBI",
+          "term": "Policy Repo Rate",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "standing-deposit-facility-india",
+      "name": "Standing Deposit Facility (SDF)",
+      "category": "India / RBI",
+      "definition": "An RBI standing facility for absorbing liquidity without requiring the central bank to provide collateral to counterparties.",
+      "marketWatch": [
+        "INR liquidity",
+        "overnight rates",
+        "policy corridor"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "RBI",
+          "term": "Standing Deposit Facility (SDF)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "marginal-standing-facility-india",
+      "name": "Marginal Standing Facility (MSF)",
+      "category": "India / RBI",
+      "definition": "An RBI overnight borrowing facility for eligible banks that forms the upper side of the policy corridor under specified conditions.",
+      "marketWatch": [
+        "INR funding",
+        "overnight rates",
+        "corridor"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "RBI",
+          "term": "Marginal Standing Facility (MSF)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "liquidity-adjustment-facility",
+      "name": "Liquidity Adjustment Facility (LAF)",
+      "category": "India / RBI",
+      "definition": "The RBI framework for managing banking-system liquidity and short-term interest rates through repo, deposit and related operations.",
+      "marketWatch": [
+        "INR liquidity",
+        "call money",
+        "repo"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "RBI",
+          "term": "Liquidity Adjustment Facility (LAF)",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "base-rate-korea",
+      "name": "Base Rate",
+      "category": "South Korea / BoK",
+      "definition": "The Bank of Korea's policy rate used as the reference point for monetary-policy implementation and short-term market rates.",
+      "marketWatch": [
+        "KRW rates",
+        "bonds",
+        "FX"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoK",
+          "term": "Base Rate",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "rp-operations-korea",
+      "name": "Bank of Korea RP Operations",
+      "category": "South Korea / BoK",
+      "definition": "Repo and reverse-repo style operations used by the Bank of Korea to supply or absorb short-term liquidity.",
+      "marketWatch": [
+        "KRW liquidity",
+        "repo",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "BoK",
+          "term": "Bank of Korea RP Operations",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "policy-rate-snb",
+      "name": "SNB Policy Rate",
+      "category": "Switzerland / SNB",
+      "definition": "The Swiss National Bank's policy rate used to communicate and implement its monetary-policy stance in Swiss-franc money markets.",
+      "marketWatch": [
+        "SARON",
+        "CHF",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "SNB",
+          "term": "SNB Policy Rate",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "saron",
+      "name": "SARON",
+      "category": "Switzerland / SNB",
+      "definition": "The Swiss Average Rate Overnight, an overnight secured Swiss-franc money-market reference rate based on repo transactions.",
+      "marketWatch": [
+        "CHF repo",
+        "policy transmission",
+        "OIS"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "SNB",
+          "term": "SARON",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "sight-deposits",
+      "name": "Sight Deposits at the SNB",
+      "category": "Switzerland / SNB",
+      "definition": "Balances held at the Swiss National Bank by banks and other eligible account holders, central to Swiss-franc liquidity conditions.",
+      "marketWatch": [
+        "CHF liquidity",
+        "SARON",
+        "reserves"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "SNB",
+          "term": "Sight Deposits at the SNB",
+          "relationship": "exact"
+        }
+      ]
+    },
+    {
+      "slug": "fx-intervention",
+      "name": "Foreign-Exchange Intervention",
+      "category": "Operations",
+      "definition": "Central-bank purchases or sales of currencies intended to influence exchange-rate conditions, reserves or market functioning, depending on mandate and framework.",
+      "marketWatch": [
+        "FX",
+        "reserves",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "sterilised-fx-intervention",
+      "name": "Sterilised FX Intervention",
+      "category": "Operations",
+      "definition": "Foreign-exchange intervention whose domestic-liquidity impact is offset through separate operations.",
+      "marketWatch": [
+        "FX",
+        "reserves",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "unsterilised-fx-intervention",
+      "name": "Unsterilised FX Intervention",
+      "category": "Operations",
+      "definition": "Foreign-exchange intervention whose domestic-liquidity effect is not offset, allowing the transaction to change banking-system liquidity.",
+      "marketWatch": [
+        "FX",
+        "reserves",
+        "money markets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "collateral-pool",
+      "name": "Collateral Pool",
+      "category": "Collateral",
+      "definition": "A set of assets pledged or mobilised by a counterparty that can secure one or more central-bank credit operations under applicable rules.",
+      "marketWatch": [
+        "credit capacity",
+        "haircuts",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "valuation-margin",
+      "name": "Valuation Margin",
+      "category": "Collateral",
+      "definition": "Additional collateral protection applied when the value of pledged assets changes or when operational rules require extra coverage.",
+      "marketWatch": [
+        "margin calls",
+        "collateral",
+        "risk"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "margin-call-central-bank",
+      "name": "Central Bank Margin Call",
+      "category": "Collateral",
+      "definition": "A requirement for a counterparty to provide additional collateral or cash when collateral coverage falls below required levels.",
+      "marketWatch": [
+        "collateral",
+        "market volatility",
+        "funding"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "collateral-mobilisation",
+      "name": "Collateral Mobilisation",
+      "category": "Collateral",
+      "definition": "The operational process of making eligible assets available to a central bank so they can secure credit operations.",
+      "marketWatch": [
+        "settlement",
+        "liquidity access",
+        "custody"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "haircut-add-on",
+      "name": "Collateral Haircut Add-On",
+      "category": "Collateral",
+      "definition": "An additional valuation deduction applied because of specific risk characteristics, concentration, currency mismatch or other framework rules.",
+      "marketWatch": [
+        "collateral value",
+        "liquidity",
+        "risk"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "lender-of-last-resort",
+      "name": "Lender of Last Resort",
+      "category": "Financial Stability",
+      "definition": "The central-bank function of supplying liquidity to the financial system or eligible institutions when market funding becomes severely impaired, subject to the jurisdiction's framework.",
+      "marketWatch": [
+        "bank stress",
+        "liquidity",
+        "financial stability"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "market-maker-of-last-resort",
+      "name": "Market Maker of Last Resort",
+      "category": "Financial Stability",
+      "definition": "A policy concept describing central-bank intervention to restore market functioning when core securities markets become severely dysfunctional.",
+      "marketWatch": [
+        "market liquidity",
+        "spreads",
+        "asset purchases"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "liquidity-insurance",
+      "name": "Central Bank Liquidity Insurance",
+      "category": "Financial Stability",
+      "definition": "Standing or contingent central-bank arrangements designed to let eligible institutions convert suitable collateral into liquidity when market funding is impaired.",
+      "marketWatch": [
+        "bank funding",
+        "collateral",
+        "stress"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "intraday-liquidity",
+      "name": "Intraday Liquidity",
+      "category": "Payments",
+      "definition": "Central-bank money available during the business day to support payment and settlement flows, often against collateral.",
+      "marketWatch": [
+        "payments",
+        "settlement",
+        "collateral"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "intraday-credit",
+      "name": "Intraday Credit",
+      "category": "Payments",
+      "definition": "Credit extended by a central bank during the day to facilitate payments or securities settlement, generally expected to be repaid by close of business.",
+      "marketWatch": [
+        "payments",
+        "settlement",
+        "reserves"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "rtgs-settlement",
+      "name": "RTGS Central-Bank-Money Settlement",
+      "category": "Payments",
+      "definition": "Final settlement of payments individually and in real time using balances at a central bank.",
+      "marketWatch": [
+        "payments",
+        "liquidity",
+        "systemic risk"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-drain",
+      "name": "Reserve Drain",
+      "category": "Liquidity",
+      "definition": "Any transaction or balance-sheet flow that reduces aggregate banking-system reserve balances, all else equal.",
+      "marketWatch": [
+        "reserves",
+        "overnight rates",
+        "repo"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-add",
+      "name": "Reserve Add",
+      "category": "Liquidity",
+      "definition": "Any transaction or balance-sheet flow that increases aggregate banking-system reserve balances, all else equal.",
+      "marketWatch": [
+        "reserves",
+        "overnight rates",
+        "repo"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "currency-swap",
+      "name": "Central Bank FX Swap",
+      "category": "Operations",
+      "definition": "A foreign-exchange swap used by a central bank to supply or absorb domestic or foreign currency liquidity for a specified term.",
+      "marketWatch": [
+        "FX basis",
+        "liquidity",
+        "reserves"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "term-premium-channel",
+      "name": "Term-Premium Channel",
+      "category": "Transmission",
+      "definition": "The mechanism through which central-bank policy or asset holdings affect compensation investors demand for bearing duration risk.",
+      "marketWatch": [
+        "long yields",
+        "QE",
+        "duration"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "signalling-channel",
+      "name": "Signalling Channel",
+      "category": "Transmission",
+      "definition": "The mechanism through which an operation communicates information about the likely future policy stance or central-bank reaction function.",
+      "marketWatch": [
+        "forward rates",
+        "yield curve",
+        "expectations"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "segmentation-channel",
+      "name": "Market Segmentation Channel",
+      "category": "Transmission",
+      "definition": "The mechanism through which central-bank transactions have stronger effects in markets where investors do not freely substitute across assets or maturities.",
+      "marketWatch": [
+        "spreads",
+        "term premium",
+        "asset purchases"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "funding-liquidity",
+      "name": "Funding Liquidity",
+      "category": "Market Signals",
+      "definition": "The ability of institutions to obtain cash or financing when needed at reasonable cost and against available collateral.",
+      "marketWatch": [
+        "repo",
+        "bank funding",
+        "stress"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "market-liquidity",
+      "name": "Market Liquidity",
+      "category": "Market Signals",
+      "definition": "The ability to trade an asset in meaningful size without causing an unusually large price move or incurring excessive transaction costs.",
+      "marketWatch": [
+        "bid-ask spreads",
+        "depth",
+        "volatility"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "liquidity-hoarding",
+      "name": "Liquidity Hoarding",
+      "category": "Market Signals",
+      "definition": "A defensive increase in cash or central-bank balances by institutions unwilling to lend or deploy liquidity because of uncertainty or funding concerns.",
+      "marketWatch": [
+        "interbank spreads",
+        "reserves",
+        "stress"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "corridor-breach",
+      "name": "Policy Corridor Breach",
+      "category": "Market Signals",
+      "definition": "A market rate trading beyond the intended effective boundary of a central-bank corridor, potentially signalling frictions, access limits or implementation stress.",
+      "marketWatch": [
+        "overnight rates",
+        "facility use",
+        "liquidity"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "repo-dislocation",
+      "name": "Repo Dislocation",
+      "category": "Market Signals",
+      "definition": "An abrupt or persistent disturbance in secured funding rates, collateral availability or market functioning relative to normal conditions.",
+      "marketWatch": [
+        "repo",
+        "reserves",
+        "collateral"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-distribution",
+      "name": "Reserve Distribution",
+      "category": "Market Signals",
+      "definition": "How aggregate central-bank reserves are distributed across institutions, which can matter even when system-wide reserves appear abundant.",
+      "marketWatch": [
+        "repo",
+        "payments",
+        "funding stress"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "window-dressing",
+      "name": "Balance-Sheet Window Dressing",
+      "category": "Market Signals",
+      "definition": "Temporary balance-sheet adjustments around reporting dates that can affect repo, reserves, dealer intermediation or money-market pricing.",
+      "marketWatch": [
+        "quarter-end",
+        "repo",
+        "dealer balance sheets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "month-end-liquidity",
+      "name": "Month-End Liquidity Effect",
+      "category": "Market Signals",
+      "definition": "Recurring funding and balance-sheet pressures around month-end that can influence short-term rates and central-bank liquidity demand.",
+      "marketWatch": [
+        "repo",
+        "FX swaps",
+        "overnight rates"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "quarter-end-liquidity",
+      "name": "Quarter-End Liquidity Effect",
+      "category": "Market Signals",
+      "definition": "Funding and regulatory balance-sheet effects around quarter-end that can temporarily distort money-market rates, collateral demand and dealer capacity.",
+      "marketWatch": [
+        "repo",
+        "FX basis",
+        "dealer balance sheets"
+      ],
+      "whatPeopleGetWrong": "Do not infer direct equivalence from a similar label. Counterparties, collateral, pricing, maturity and the operating framework can materially change the economic function.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-supply-curve",
+      "name": "Reserve Supply",
+      "category": "Reserves",
+      "definition": "The aggregate quantity of central-bank reserve balances supplied to the banking system through the central bank's balance sheet.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-demand-curve",
+      "name": "Reserve Demand Curve",
+      "category": "Reserves",
+      "definition": "The relationship between the quantity of reserves institutions want to hold and the opportunity cost or remuneration of those balances.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "ample-to-scarce-transition",
+      "name": "Ample-to-Scarce Reserve Transition",
+      "category": "Market Signals",
+      "definition": "The phase in which declining reserve supply begins to make overnight rates and funding conditions more sensitive to marginal reserve changes.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "money-market-floor",
+      "name": "Money-Market Floor",
+      "category": "Operating Frameworks",
+      "definition": "The effective lower boundary for overnight rates created by central-bank remuneration or deposit-type facilities and arbitrage.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "money-market-ceiling",
+      "name": "Money-Market Ceiling",
+      "category": "Operating Frameworks",
+      "definition": "The effective upper boundary for overnight rates created by access to central-bank credit or repo facilities.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "policy-spread",
+      "name": "Policy Spread",
+      "category": "Operating Frameworks",
+      "definition": "The spread between two administered central-bank rates, often relevant to corridor width and money-market incentives.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "deposit-tier",
+      "name": "Deposit Tier",
+      "category": "Reserve Remuneration",
+      "definition": "A category of reserve or deposit balances receiving a specified remuneration rate or exemption under a tiered system.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-exemption",
+      "name": "Reserve Remuneration Exemption",
+      "category": "Reserve Remuneration",
+      "definition": "A portion of balances excluded from a standard remuneration treatment under a tiering framework.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "central-bank-collateral-framework",
+      "name": "Central Bank Collateral Framework",
+      "category": "Collateral",
+      "definition": "The rules defining eligible assets, valuation, haircuts, mobilisation and risk controls for central-bank credit.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "wrong-way-risk-collateral",
+      "name": "Collateral Wrong-Way Risk",
+      "category": "Collateral",
+      "definition": "Risk that collateral quality deteriorates at the same time as the counterparty or exposure it secures becomes riskier.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "collateral-concentration",
+      "name": "Collateral Concentration",
+      "category": "Collateral",
+      "definition": "A high dependence on a narrow issuer, asset class or risk factor within collateral pledged for central-bank credit.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "cross-border-collateral",
+      "name": "Cross-Border Collateral",
+      "category": "Collateral",
+      "definition": "Eligible collateral issued, held or mobilised across jurisdictions under arrangements recognised by a central bank.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "central-bank-balance-sheet",
+      "name": "Central Bank Balance Sheet",
+      "category": "Balance Sheet",
+      "definition": "The accounting structure recording central-bank assets such as securities and loans and liabilities such as currency, reserves and government deposits.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "non-reserve-liability",
+      "name": "Non-Reserve Liability",
+      "category": "Balance Sheet",
+      "definition": "A central-bank liability other than commercial-bank reserves, such as currency, government deposits or certain reverse-repo liabilities.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "reserve-liability",
+      "name": "Reserve Liability",
+      "category": "Balance Sheet",
+      "definition": "A central-bank liability representing balances held by eligible institutions in reserve or settlement accounts.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "central-bank-capital",
+      "name": "Central Bank Capital",
+      "category": "Balance Sheet",
+      "definition": "The equity and reserve-accounting position on a central bank's balance sheet, whose institutional meaning differs from commercial-bank capital.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "deferred-asset",
+      "name": "Central Bank Deferred Asset",
+      "category": "Balance Sheet",
+      "definition": "An accounting mechanism used in some central-bank frameworks to record future earnings claims after operating losses rather than immediately reducing remittances below zero.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "remittances",
+      "name": "Central Bank Remittances",
+      "category": "Balance Sheet",
+      "definition": "Transfers of central-bank net income to the fiscal authority under applicable institutional and accounting rules.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "seigniorage",
+      "name": "Seigniorage",
+      "category": "Balance Sheet",
+      "definition": "Income or economic value associated with issuing monetary liabilities, particularly currency, relative to the assets held against them.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "duration-extraction",
+      "name": "Duration Extraction",
+      "category": "Transmission",
+      "definition": "The reduction of duration risk held by the private sector when a central bank purchases longer-maturity securities.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "duration-release",
+      "name": "Duration Release",
+      "category": "Transmission",
+      "definition": "The return of duration risk to private investors as central-bank holdings run off or are sold.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "policy-pass-through",
+      "name": "Policy Rate Pass-Through",
+      "category": "Transmission",
+      "definition": "The degree and speed with which changes in central-bank policy rates affect money-market, deposit, lending and bond rates.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "deposit-beta",
+      "name": "Deposit Beta",
+      "category": "Transmission",
+      "definition": "The proportion of a policy-rate change that banks pass through to customer deposit rates.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "lending-beta",
+      "name": "Lending-Rate Pass-Through",
+      "category": "Transmission",
+      "definition": "The degree to which policy and wholesale funding-rate changes feed into bank lending rates.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "term-funding",
+      "name": "Central Bank Term Funding",
+      "category": "Facilities",
+      "definition": "Central-bank funding supplied for maturities longer than overnight, often against collateral and sometimes with policy-linked conditions.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "liquidity-backstop",
+      "name": "Liquidity Backstop",
+      "category": "Facilities",
+      "definition": "A facility or commitment intended to ensure eligible institutions or markets can access liquidity under stressed conditions.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "stigma",
+      "name": "Central Bank Facility Stigma",
+      "category": "Market Signals",
+      "definition": "Reluctance to use a central-bank facility because counterparties fear that usage could be interpreted as a sign of weakness.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "take-up",
+      "name": "Operation Take-Up",
+      "category": "Market Signals",
+      "definition": "The amount of liquidity, securities or funding counterparties choose to request or place in a central-bank operation.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "bid-to-cover-central-bank",
+      "name": "Central Bank Tender Bid-to-Cover",
+      "category": "Market Signals",
+      "definition": "The ratio of submitted demand to the amount offered or allotted in a central-bank tender, where the auction design makes the measure meaningful.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "marginal-rate-tender",
+      "name": "Marginal Tender Rate",
+      "category": "Operations",
+      "definition": "The lowest accepted rate in a liquidity-providing variable-rate tender or the corresponding boundary under the relevant auction convention.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "weighted-average-rate-tender",
+      "name": "Weighted Average Tender Rate",
+      "category": "Operations",
+      "definition": "The quantity-weighted average rate of successful bids in a central-bank variable-rate tender.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "settlement-day",
+      "name": "Operation Settlement Day",
+      "category": "Operations",
+      "definition": "The date on which cash and collateral movements from a central-bank operation are actually settled.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "operation-maturity",
+      "name": "Operation Maturity",
+      "category": "Operations",
+      "definition": "The contractual term until a central-bank refinancing or liquidity operation reverses or is repaid.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "rollover-risk",
+      "name": "Central Bank Funding Rollover Risk",
+      "category": "Market Signals",
+      "definition": "The risk that counterparties dependent on central-bank term funding face tighter conditions when an operation matures and must be replaced.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "cliff-effect",
+      "name": "Liquidity Cliff Effect",
+      "category": "Market Signals",
+      "definition": "A sharp change in funding or reserve conditions when a large operation, exemption or support measure expires at once.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "policy-normalisation",
+      "name": "Monetary Policy Normalisation",
+      "category": "Operating Frameworks",
+      "definition": "The process of moving policy rates, balance-sheet tools or implementation arrangements away from unusually accommodative settings.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "balance-sheet-normalisation",
+      "name": "Balance-Sheet Normalisation",
+      "category": "Balance Sheet",
+      "definition": "The process of reducing or restructuring central-bank asset holdings and reserve supply after a period of extraordinary expansion.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "operational-framework-review",
+      "name": "Operational Framework Review",
+      "category": "Operating Frameworks",
+      "definition": "A central-bank reassessment of how reserves, facilities, collateral and operations should be structured to implement the policy stance.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "liquidity-premium",
+      "name": "Liquidity Premium",
+      "category": "Market Signals",
+      "definition": "Compensation investors or lenders demand for holding assets or claims that are harder to trade or finance quickly.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
+    },
+    {
+      "slug": "convenience-yield",
+      "name": "Collateral Convenience Yield",
+      "category": "Market Signals",
+      "definition": "The non-coupon value investors attach to securities because they are especially useful for collateral, settlement or liquidity management.",
+      "marketWatch": [
+        "money markets",
+        "central-bank balance sheet",
+        "fixed income"
+      ],
+      "whatPeopleGetWrong": "The label is only a starting point. Its market meaning depends on the central bank's operating framework and the surrounding balance-sheet mechanics.",
+      "translations": [
+        {
+          "centralBank": "Fed",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "ECB",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoE",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        },
+        {
+          "centralBank": "BoJ",
+          "term": "Framework-specific implementation",
+          "relationship": "related"
+        }
+      ]
     }
-  ]
+  ],
+  "ui": "BondStats Central Bank Rosetta / Translator 2.0"
 }

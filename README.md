@@ -24,6 +24,9 @@ Official primary sources should be used to verify mappings before expanding them
 
 Serve the repository root with any static HTTP server. `index.html` fetches `data/translator.json`; opening it directly with `file://` may be blocked by browser fetch rules.
 
-## V1
+## Strong V2
 
-V1 deliberately starts with a curated ontology rather than hundreds of thin SEO pages. The next production stage should add source URLs and verification metadata per mapping, then integrate the UI into BondStats.
+Strong V2 expands the curated ontology while retaining the rule that no cross-central-bank mapping may be presented as equivalent merely because labels sound similar. The next production stage should add source URLs and verification metadata per mapping, then integrate the UI into BondStats.
+
+
+Current ontology: **205 concepts**.
